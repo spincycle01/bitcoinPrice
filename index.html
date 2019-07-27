@@ -14,10 +14,18 @@
   <div class="bigger">
     <div class="container">
       <div class='box' id='BPinfo'>
-        <h1>Current Bitcoin Price: <span id="price">$1000000</span></h1>
+        <h1>Current Bitcoin Price: <span id="price"></span></h1>
       </div>
       <div class='box' id='btnDiv'>
-        <button id='btn'>Refresh Data</button>
+        <button id='btnUS'>Refresh Data</button>
+      </div>
+      <div class='box' id='radioBtnDiv'>
+        <label for="USD">USD</label>
+        <input type="radio" id="USD" name="currency" value="USD">
+        <label for="EUR">EUR</label>
+        <input type="radio" id="EUR" name="currency" value="EUR">
+        <label for="GBP">GBP</label>
+        <input type="radio" id="GBP" name="currency" value="GBP">
       </div>
     </div>
   </div>

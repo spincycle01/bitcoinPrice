@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 span {
@@ -10,6 +11,8 @@ span {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
+  display: none;
+  text-align: center;
 }
 
 .container {
@@ -19,6 +22,10 @@ span {
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+#radioBtnDiv {
+  margin: 20px;
 }
 .box {
 }
@@ -36,7 +43,7 @@ button {
   font-weight: bold;
   background-color: #339966;
   box-shadow: 2px 3px 10px #888888;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
   font-size: 1rem;
 }
 
